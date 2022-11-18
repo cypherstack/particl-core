@@ -5,7 +5,7 @@
 #ifndef BITCOIN_UTIL_STRING_H
 #define BITCOIN_UTIL_STRING_H
 
-#include <util/spanparsing.h>
+#include "../util/spanparsing.h"
 
 #include <array>
 #include <cstdint>

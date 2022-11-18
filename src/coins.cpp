@@ -2,13 +2,13 @@
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#include <coins.h>
+#include "coins.h"
 
-#include <consensus/consensus.h>
-#include <logging.h>
-#include <random.h>
-#include <util/trace.h>
-#include <version.h>
+#include "consensus/consensus.h"
+#include "logging.h"
+#include "random.h"
+#include "util/trace.h"
+#include "version.h"
 
 bool CCoinsView::GetCoin(const COutPoint &outpoint, Coin &coin) const { return false; }
 

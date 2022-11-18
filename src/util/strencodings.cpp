@@ -3,17 +3,17 @@
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#include <span.h>
-#include <util/strencodings.h>
+#include "../span.h"
+#include "strencodings.h"
 
-#include <array>
-#include <cassert>
-#include <cstring>
-#include <limits>
-#include <optional>
-#include <ostream>
-#include <string>
-#include <vector>
+#include "array"
+#include "cassert"
+#include "cstring"
+#include "limits"
+#include "optional"
+#include "ostream"
+#include "string"
+#include "vector"
 
 static const std::string CHARS_ALPHA_NUM = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789";
 

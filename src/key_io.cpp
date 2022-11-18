@@ -2,17 +2,17 @@
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#include <key_io.h>
+#include "key_io.h"
 
-#include <base58.h>
-#include <bech32.h>
-#include <util/strencodings.h>
-#include <insight/addressindex.h>
+#include "base58.h"
+#include "bech32.h"
+#include "util/strencodings.h"
+#include "insight/addressindex.h"
 
-#include <algorithm>
-#include <assert.h>
-#include <string.h>
-#include <cmath>  // std::ceil
+#include "algorithm"
+#include "assert.h"
+#include "string.h"
+#include "cmath"  // std::ceil
 
 /// Maximum witness length for Bech32 addresses.
 static constexpr std::size_t BECH32_WITNESS_PROG_MAX_LEN = 40;

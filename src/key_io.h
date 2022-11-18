@@ -6,19 +6,19 @@
 #ifndef BITCOIN_KEY_IO_H
 #define BITCOIN_KEY_IO_H
 
-#include <chainparams.h>
-#include <key.h>
-#include <pubkey.h>
-#include <script/standard.h>
+#include "chainparams.h"
+#include "key.h"
+#include "pubkey.h"
+#include "script/standard.h"
 
-#include <string>
+#include "string"
 
-#include <key/extkey.h>
-#include <key/stealth.h>
-#include <script/script.h>
-#include <support/allocators/zeroafterfree.h>
-#include <bech32.h>
-#include <base58.h>
+#include "key/extkey.h"
+#include "key/stealth.h"
+#include "script/script.h"
+#include "support/allocators/zeroafterfree.h"
+#include "bech32.h"
+#include "base58.h"
 
 CKey DecodeSecret(const std::string& str);
 std::string EncodeSecret(const CKey& key);

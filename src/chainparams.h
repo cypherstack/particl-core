@@ -6,13 +6,13 @@
 #ifndef BITCOIN_CHAINPARAMS_H
 #define BITCOIN_CHAINPARAMS_H
 
-#include <chainparamsbase.h>
-#include <consensus/params.h>
-#include <netaddress.h>
-#include <primitives/block.h>
-#include <chain.h>
-#include <protocol.h>
-#include <util/hash_type.h>
+#include "chainparamsbase.h"
+#include "consensus/params.h"
+#include "netaddress.h"
+#include "primitives/block.h"
+#include "chain.h"
+#include "protocol.h"
+#include "util/hash_type.h"
 
 #include <memory>
 #include <string>

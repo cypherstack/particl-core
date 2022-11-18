@@ -3,18 +3,18 @@
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#include <script/sign.h>
+#include "sign.h"
 
-#include <consensus/amount.h>
-#include <key.h>
-#include <policy/policy.h>
-#include <primitives/transaction.h>
-#include <script/keyorigin.h>
-#include <script/signingprovider.h>
-#include <script/standard.h>
-#include <uint256.h>
-#include <util/translation.h>
-#include <util/vector.h>
+#include "../consensus/amount.h"
+#include "key.h"
+#include "policy/policy.h"
+#include "primitives/transaction.h"
+#include "script/keyorigin.h"
+#include "script/signingprovider.h"
+#include "script/standard.h"
+#include "uint256.h"
+#include "util/translation.h"
+#include "util/vector.h"
 
 typedef std::vector<unsigned char> valtype;
 

@@ -6,11 +6,11 @@
 #ifndef BITCOIN_COMPRESSOR_H
 #define BITCOIN_COMPRESSOR_H
 
-#include <prevector.h>
-#include <primitives/transaction.h>
-#include <script/script.h>
-#include <serialize.h>
-#include <span.h>
+#include "prevector.h"
+#include "primitives/transaction.h"
+#include "script/script.h"
+#include "serialize.h"
+#include "span.h"
 
 /**
  * This saves us from making many heap allocations when serializing

@@ -6,13 +6,13 @@
 #ifndef BITCOIN_PRIMITIVES_TRANSACTION_H
 #define BITCOIN_PRIMITIVES_TRANSACTION_H
 
-#include <consensus/amount.h>
-#include <prevector.h>
-#include <script/script.h>
-#include <serialize.h>
-#include <uint256.h>
-#include <pubkey.h>
-#include <consensus/consensus.h>
+#include "../consensus/amount.h"
+#include "../prevector.h"
+#include "../script/script.h"
+#include "../serialize.h"
+#include "../uint256.h"
+#include "../pubkey.h"
+#include "../consensus/consensus.h"
 
 #include <secp256k1_rangeproof.h>
 

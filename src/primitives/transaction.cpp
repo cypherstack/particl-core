@@ -3,19 +3,19 @@
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#include <primitives/transaction.h>
+#include "transaction.h"
 
-#include <consensus/amount.h>
-#include <hash.h>
-#include <script/script.h>
-#include <serialize.h>
-#include <tinyformat.h>
-#include <uint256.h>
-#include <util/strencodings.h>
-#include <version.h>
+#include "../consensus/amount.h"
+#include "hash.h"
+#include "../script/script.h"
+#include "serialize.h"
+#include "tinyformat.h"
+#include "uint256.h"
+#include "../util/strencodings.h"
+#include "version.h"
 
-#include <cassert>
-#include <stdexcept>
+#include "cassert"
+#include "stdexcept"
 
 bool ExtractCoinStakeInt64(const std::vector<uint8_t> &vData, DataOutputTypes get_type, CAmount &out)
 {

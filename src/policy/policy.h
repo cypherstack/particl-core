@@ -6,11 +6,11 @@
 #ifndef BITCOIN_POLICY_POLICY_H
 #define BITCOIN_POLICY_POLICY_H
 
-#include <consensus/amount.h>
-#include <consensus/consensus.h>
-#include <primitives/transaction.h>
-#include <script/interpreter.h>
-#include <script/standard.h>
+#include "../consensus/amount.h"
+#include "../consensus/consensus.h"
+#include "../primitives/transaction.h"
+#include "../script/interpreter.h"
+#include "../script/standard.h"
 
 #include <cstdint>
 #include <string>

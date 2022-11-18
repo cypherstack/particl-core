@@ -2,20 +2,20 @@
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#include <consensus/amount.h>
-#include <key_io.h>
-#include <outputtype.h>
-#include <rpc/util.h>
-#include <script/descriptor.h>
-#include <script/signingprovider.h>
-#include <tinyformat.h>
-#include <util/check.h>
-#include <util/strencodings.h>
-#include <util/string.h>
-#include <util/system.h>
-#include <util/translation.h>
+#include "../consensus/amount.h"
+#include "../key_io.h"
+#include "outputtype.h"
+#include "rpc/util.h"
+#include "script/descriptor.h"
+#include "script/signingprovider.h"
+#include "tinyformat.h"
+#include "util/check.h"
+#include "util/strencodings.h"
+#include "util/string.h"
+#include "util/system.h"
+#include "util/translation.h"
 
-#include <tuple>
+#include "tuple"
 
 const std::string UNIX_EPOCH_TIME = "UNIX epoch time";
 const std::string EXAMPLE_ADDRESS_BTC[2] = {"bc1q09vm5lfy0j5reeulh4x5752q25uqqvz34hufdl", "bc1q02ad21edsxd23d32dfgqqsz4vv4nmtfzuklhy3"};
