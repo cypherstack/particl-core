@@ -5,7 +5,7 @@
 #ifndef PARTICL_RCTINDEX_H
 #define PARTICL_RCTINDEX_H
 
-#include <primitives/transaction.h>
+#include "primitives/transaction.h"
 
 class CAnonOutput
 {

@@ -3,18 +3,18 @@
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#include <key.h>
+#include "key.h"
 
-#include <crypto/common.h>
-#include <crypto/hmac_sha512.h>
-#include <hash.h>
-#include <random.h>
+#include "crypto/common.h"
+#include "crypto/hmac_sha512.h"
+#include "hash.h"
+#include "random.h"
 
-#include <secp256k1.h>
-#include <secp256k1_extrakeys.h>
-#include <secp256k1_recovery.h>
-#include <secp256k1_schnorrsig.h>
-#include <secp256k1_ecdh.h>
+#include "secp256k1.h"
+#include "secp256k1_extrakeys.h"
+#include "secp256k1_recovery.h"
+#include "secp256k1_schnorrsig.h"
+#include "secp256k1_ecdh.h"
 
 static secp256k1_context* secp256k1_context_sign = nullptr;
 

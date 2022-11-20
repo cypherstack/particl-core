@@ -6,14 +6,14 @@
 #ifndef BITCOIN_SCRIPT_INTERPRETER_H
 #define BITCOIN_SCRIPT_INTERPRETER_H
 
-#include <hash.h>
-#include <script/script_error.h>
-#include <span.h>
-#include <primitives/transaction.h>
+#include "../hash.h"
+#include "script_error.h"
+#include "../span.h"
+#include "../primitives/transaction.h"
 
 #include <optional>
 #include <vector>
-#include <stdint.h>
+#include "stdint.h"
 
 class CPubKey;
 class XOnlyPubKey;

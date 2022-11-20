@@ -3,18 +3,18 @@
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#include <outputtype.h>
+#include "outputtype.h"
 
-#include <pubkey.h>
-#include <script/script.h>
-#include <script/sign.h>
-#include <script/signingprovider.h>
-#include <script/standard.h>
-#include <util/vector.h>
+#include "pubkey.h"
+#include "script/script.h"
+#include "script/sign.h"
+#include "script/signingprovider.h"
+#include "script/standard.h"
+#include "util/vector.h"
 
-#include <assert.h>
-#include <optional>
-#include <string>
+#include "assert.h"
+#include "optional"
+#include "string"
 
 static const std::string OUTPUT_TYPE_STRING_LEGACY = "legacy";
 static const std::string OUTPUT_TYPE_STRING_P2SH_SEGWIT = "p2sh-segwit";

@@ -7,7 +7,7 @@
 
 #include "policy.h"
 
-#include "coins.h"
+#include "../coins.h"
 #include "../consensus/amount.h"
 #include "../consensus/consensus.h"
 #include "../consensus/validation.h"
@@ -16,15 +16,15 @@
 #include "../script/interpreter.h"
 #include "../script/script.h"
 #include "../script/standard.h"
-#include "serialize.h"
-#include "span.h"
+#include "../serialize.h"
+#include "../span.h"
 
 #include "algorithm"
 #include "cstddef"
 #include "vector"
 
 // Particl
-#include "chainparams.h"
+#include "../chainparams.h"
 
 CAmount GetDustThreshold(const CTxOut& txout, const CFeeRate& dustRelayFeeIn)
 {

@@ -3,19 +3,19 @@
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#include <script/standard.h>
+#include "standard.h"
 
-#include <crypto/sha256.h>
-#include <hash.h>
-#include <pubkey.h>
-#include <script/interpreter.h>
-#include <script/script.h>
-#include <util/strencodings.h>
+#include "../crypto/sha256.h"
+#include "hash.h"
+#include "pubkey.h"
+#include "interpreter.h"
+#include "script.h"
+#include "../util/strencodings.h"
 
-#include <string>
+#include "string"
 
-#include <key/extkey.h>
-#include <key/stealth.h>
+#include "../key/extkey.h"
+#include "../key/stealth.h"
 
 typedef std::vector<unsigned char> valtype;
 

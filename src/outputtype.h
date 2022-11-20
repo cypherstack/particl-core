@@ -6,13 +6,13 @@
 #ifndef BITCOIN_OUTPUTTYPE_H
 #define BITCOIN_OUTPUTTYPE_H
 
-#include <script/signingprovider.h>
-#include <script/standard.h>
+#include "script/signingprovider.h"
+#include "script/standard.h"
 
-#include <array>
-#include <optional>
-#include <string>
-#include <vector>
+#include "array"
+#include "optional"
+#include "string"
+#include "vector"
 
 enum class OutputType {
     LEGACY,

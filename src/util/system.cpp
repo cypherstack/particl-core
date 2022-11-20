@@ -3,17 +3,17 @@
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#include <util/system.h>
+#include "system.h"
 
-#include <chainparamsbase.h>
-#include <fs.h>
-#include <sync.h>
-#include <util/check.h>
-#include <util/getuniquepath.h>
-#include <util/strencodings.h>
-#include <util/string.h>
-#include <util/syserror.h>
-#include <util/translation.h>
+#include "../chainparamsbase.h"
+#include "../fs.h"
+#include "../sync.h"
+#include "check.h"
+#include "getuniquepath.h"
+#include "strencodings.h"
+#include "string.h"
+#include "syserror.h"
+#include "translation.h"
 
 
 #if (defined(__FreeBSD__) || defined(__OpenBSD__) || defined(__DragonFly__))

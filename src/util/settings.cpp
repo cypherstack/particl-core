@@ -2,13 +2,13 @@
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#include <fs.h>
-#include <util/settings.h>
+#include "../fs.h"
+#include "settings.h"
 
-#include <tinyformat.h>
-#include <univalue.h>
+#include "../tinyformat.h"
+#include <../univalue/include/univalue.h"
 
-#include <fstream>
+#include "fstream"
 #include <map>
 #include <string>
 #include <vector>

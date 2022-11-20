@@ -5,10 +5,10 @@
 #ifndef BITCOIN_CORE_IO_H
 #define BITCOIN_CORE_IO_H
 
-#include <consensus/amount.h>
+#include "consensus/amount.h"
 
-#include <string>
-#include <vector>
+#include "string"
+#include "vector"
 
 class CBlock;
 class CBlockHeader;

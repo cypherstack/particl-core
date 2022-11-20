@@ -3,10 +3,10 @@
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#include <primitives/block.h>
+#include "block.h"
 
-#include <hash.h>
-#include <tinyformat.h>
+#include "hash.h"
+#include "tinyformat.h"
 
 int WITNESS_SCALE_FACTOR = WITNESS_SCALE_FACTOR_PART;
 

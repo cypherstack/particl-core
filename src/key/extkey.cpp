@@ -3,12 +3,12 @@
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#include <key/extkey.h>
+#include "extkey.h"
 
-#include <key_io.h>
-#include <crypto/hmac_sha512.h>
+#include "../key_io.h"
+#include "../crypto/hmac_sha512.h"
 
-#include <stdint.h>
+#include "stdint.h"
 
 RecursiveMutex cs_extKey;
 

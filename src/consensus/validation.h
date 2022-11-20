@@ -6,12 +6,12 @@
 #ifndef BITCOIN_CONSENSUS_VALIDATION_H
 #define BITCOIN_CONSENSUS_VALIDATION_H
 
-#include <string>
-#include <version.h>
-#include <consensus/consensus.h>
-#include <primitives/transaction.h>
-#include <primitives/block.h>
-#include <consensus/params.h>
+#include "string"
+#include "../version.h"
+#include "consensus.h"
+#include "../primitives/transaction.h"
+#include "../primitives/block.h"
+#include "params.h"
 
 class PeerManager;
 class ChainstateManager;

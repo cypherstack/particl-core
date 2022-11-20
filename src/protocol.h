@@ -6,16 +6,16 @@
 #ifndef BITCOIN_PROTOCOL_H
 #define BITCOIN_PROTOCOL_H
 
-#include <netaddress.h>
-#include <primitives/transaction.h>
-#include <serialize.h>
-#include <streams.h>
-#include <uint256.h>
-#include <util/time.h>
+#include "netaddress.h"
+#include "primitives/transaction.h"
+#include "serialize.h"
+#include "streams.h"
+#include "uint256.h"
+#include "util/time.h"
 
-#include <cstdint>
-#include <limits>
-#include <string>
+#include "cstdint"
+#include "limits"
+#include "string"
 
 /** Message header.
  * (4) message start.

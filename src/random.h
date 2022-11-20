@@ -6,10 +6,10 @@
 #ifndef BITCOIN_RANDOM_H
 #define BITCOIN_RANDOM_H
 
-#include <crypto/chacha20.h>
-#include <crypto/common.h>
-#include <span.h>
-#include <uint256.h>
+#include "crypto/chacha20.h"
+#include "crypto/common.h"
+#include "span.h"
+#include "uint256.h"
 
 #include <cassert>
 #include <chrono>

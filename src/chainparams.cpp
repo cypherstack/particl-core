@@ -3,22 +3,22 @@
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#include <chainparams.h>
+#include "chainparams.h"
 
-#include <chainparamsseeds.h>
-#include <consensus/merkle.h>
-#include <deploymentinfo.h>
-#include <hash.h> // for signet block challenge hash
-#include <script/interpreter.h>
-#include <util/string.h>
-#include <util/system.h>
+#include "chainparamsseeds.h"
+#include "consensus/merkle.h"
+#include "deploymentinfo.h"
+#include "hash.h" // for signet block challenge hash
+#include "script/interpreter.h"
+#include "util/string.h"
+#include "util/system.h"
 
-#include <chain/chainparamsimport.h>
+#include "chain/chainparamsimport.h"
 
-#include <assert.h>
+#include "assert.h"
 
 // Particl
-#include <key/keyutil.h>
+#include "key/keyutil.h"
 
 int64_t CChainParams::GetCoinYearReward(int64_t nTime) const
 {

@@ -5,10 +5,10 @@
 #ifndef BITCOIN_UTIL_TRANSLATION_H
 #define BITCOIN_UTIL_TRANSLATION_H
 
-#include <tinyformat.h>
+#include "../tinyformat.h"
 
-#include <functional>
-#include <string>
+#include "functional"
+#include "string"
 
 /**
  * Bilingual messages:

@@ -14,7 +14,7 @@
 #include "../pubkey.h"
 #include "../consensus/consensus.h"
 
-#include <secp256k1_rangeproof.h>
+#include "../secp256k1/include/secp256k1_rangeproof.h"
 
 #include <cstddef>
 #include <cstdint>

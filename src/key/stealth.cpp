@@ -3,21 +3,21 @@
 // Distributed under the MIT/X11 software license, see the accompanying
 // file license.txt or http://www.opensource.org/licenses/mit-license.php.
 
-#include <key/stealth.h>
+#include "stealth.h"
 
-#include <key_io.h>
-#include <key/keyutil.h>
-#include <key/crypter.h>
-#include <pubkey.h>
-#include <random.h>
-#include <script/script.h>
-#include <serialize.h>
+#include "../key_io.h"
+#include "keyutil.h"
+#include "crypter.h"
+#include "../pubkey.h"
+#include "../random.h"
+#include "../script/script.h"
+#include "../serialize.h"
 
-#include <support/allocators/secure.h>
+#include "../support/allocators/secure.h"
 
 #include <cmath>
-#include <secp256k1.h>
-#include <secp256k1_ecdh.h>
+#include "../secp256k1/include/secp256k1.h"
+#include "../secp256k1/include/secp256k1_ecdh.h"
 
 secp256k1_context *secp256k1_ctx_stealth = nullptr;
 

@@ -6,13 +6,13 @@
 #ifndef BITCOIN_POLICY_FEERATE_H
 #define BITCOIN_POLICY_FEERATE_H
 
-#include <consensus/amount.h>
-#include <serialize.h>
+#include "../consensus/amount.h"
+#include "../serialize.h"
 
 
-#include <cstdint>
-#include <string>
-#include <type_traits>
+#include "cstdint"
+#include "string"
+#include "type_traits"
 
 const std::string CURRENCY_UNIT = "PART"; // One formatted unit
 const std::string CURRENCY_ATOM = "sat"; // One indivisible minimum value unit

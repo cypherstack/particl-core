@@ -14,14 +14,14 @@
 #include <config/bitcoin-config.h>
 #endif
 
-#include <compat/compat.h>
-#include <compat/assumptions.h>
-#include <fs.h>
-#include <logging.h>
-#include <sync.h>
-#include <tinyformat.h>
-#include <util/settings.h>
-#include <util/time.h>
+#include "../compat/compat.h"
+#include "../compat/assumptions.h"
+#include "../fs.h"
+#include "../logging.h"
+#include "../sync.h"
+#include "../tinyformat.h"
+#include "settings.h"
+#include "time.h"
 
 #include <any>
 #include <exception>

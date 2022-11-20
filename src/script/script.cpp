@@ -3,11 +3,11 @@
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#include <script/script.h>
+#include "script.h"
 
-#include <util/strencodings.h>
+#include "../util/strencodings.h"
 
-#include <string>
+#include "string"
 
 std::string GetOpName(opcodetype opcode)
 {

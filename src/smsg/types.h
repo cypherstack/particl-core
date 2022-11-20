@@ -5,7 +5,7 @@
 #ifndef PARTICL_SMSG_TYPES_H
 #define PARTICL_SMSG_TYPES_H
 
-#include <leveldb/write_batch.h>
+#include "../leveldb/include/leveldb/write_batch.h"
 
 namespace smsg {
 

@@ -6,14 +6,14 @@
 #ifndef PARTICL_KEY_STEALTH_H
 #define PARTICL_KEY_STEALTH_H
 
-#include <stdio.h>
-#include <stdint.h>
-#include <string.h>
-#include <string>
-#include <vector>
+#include "stdio.h"
+#include "stdint.h"
+#include "string.h"
+#include "string"
+#include "vector"
 
-#include <key.h>
-#include <key/types.h>
+#include "../key.h"
+#include "types.h"
 
 class CScript;
 

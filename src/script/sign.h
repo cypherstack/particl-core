@@ -8,8 +8,8 @@
 
 #include "../attributes.h"
 #include "../coins.h"
-#include "hash.h"
-#include "pubkey.h"
+#include "../hash.h"
+#include "../pubkey.h"
 #include "interpreter.h"
 #include "keyorigin.h"
 #include "standard.h"

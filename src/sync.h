@@ -7,12 +7,12 @@
 #define BITCOIN_SYNC_H
 
 #ifdef DEBUG_LOCKCONTENTION
-#include <logging.h>
-#include <logging/timer.h>
+#include "logging.h"
+#include "logging/timer.h"
 #endif
 
-#include <threadsafety.h>
-#include <util/macros.h>
+#include "threadsafety.h"
+#include "util/macros.h"
 
 #include <condition_variable>
 #include <mutex>

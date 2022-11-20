@@ -6,13 +6,13 @@
 #define BITCOIN_UTIL_CHECK_H
 
 #if defined(HAVE_CONFIG_H)
-#include <config/bitcoin-config.h>
+#include "../config/bitcoin-config.h"
 #endif
 
-#include <attributes.h>
-#include <tinyformat.h>
+#include "../attributes.h"
+#include "../tinyformat.h"
 
-#include <stdexcept>
+#include "stdexcept"
 
 class NonFatalCheckError : public std::runtime_error
 {
@@ -25,6 +25,7 @@ class NonFatalCheckError : public std::runtime_error
 
 /** Helper for CHECK_NONFATAL() */
 template <typename T>
+#define PACKAGE_BUGREPORT "https://github.com/bitcoin/bitcoin/issues"
 T&& inline_check_non_fatal(LIFETIMEBOUND T&& val, const char* file, int line, const char* func, const char* assertion)
 {
     if (!(val)) {

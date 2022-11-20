@@ -6,10 +6,10 @@
 #ifndef BITCOIN_FLATFILE_H
 #define BITCOIN_FLATFILE_H
 
-#include <string>
+#include "string"
 
-#include <fs.h>
-#include <serialize.h>
+#include "fs.h"
+#include "serialize.h"
 
 struct FlatFilePos
 {

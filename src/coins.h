@@ -19,10 +19,10 @@
 
 #include <functional>
 #include <unordered_map>
-#include <insight/addressindex.h>
-#include <insight/spentindex.h>
-#include <rctindex.h>
-#include <smsg/types.h>
+#include "insight/addressindex.h"
+#include "insight/spentindex.h"
+#include "rctindex.h"
+#include "smsg/types.h"
 
 extern bool fParticlMode;
 

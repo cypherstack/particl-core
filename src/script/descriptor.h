@@ -5,10 +5,10 @@
 #ifndef BITCOIN_SCRIPT_DESCRIPTOR_H
 #define BITCOIN_SCRIPT_DESCRIPTOR_H
 
-#include <outputtype.h>
-#include <script/script.h>
-#include <script/sign.h>
-#include <script/signingprovider.h>
+#include "../outputtype.h"
+#include "script.h"
+#include "sign.h"
+#include "signingprovider.h"
 
 #include <optional>
 #include <vector>

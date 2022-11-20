@@ -6,15 +6,15 @@
 #include "sign.h"
 
 #include "../consensus/amount.h"
-#include "key.h"
-#include "policy/policy.h"
-#include "primitives/transaction.h"
-#include "script/keyorigin.h"
-#include "script/signingprovider.h"
-#include "script/standard.h"
-#include "uint256.h"
-#include "util/translation.h"
-#include "util/vector.h"
+#include "../key.h"
+#include "../policy/policy.h"
+#include "../primitives/transaction.h"
+#include "keyorigin.h"
+#include "signingprovider.h"
+#include "standard.h"
+#include "../uint256.h"
+#include "../util/translation.h"
+#include "../util/vector.h"
 
 typedef std::vector<unsigned char> valtype;
 

@@ -6,22 +6,22 @@
 #ifndef BITCOIN_STREAMS_H
 #define BITCOIN_STREAMS_H
 
-#include <serialize.h>
-#include <span.h>
-#include <support/allocators/zeroafterfree.h>
-#include <util/overflow.h>
+#include "serialize.h"
+#include "span.h"
+#include "support/allocators/zeroafterfree.h"
+#include "util/overflow.h"
 
-#include <algorithm>
-#include <assert.h>
-#include <cstdio>
-#include <ios>
-#include <limits>
-#include <optional>
-#include <stdint.h>
-#include <string.h>
-#include <string>
-#include <utility>
-#include <vector>
+#include "algorithm"
+#include "assert.h"
+#include "cstdio"
+#include "ios"
+#include "limits"
+#include "optional"
+#include "stdint.h"
+#include "string.h"
+#include "string"
+#include "utility"
+#include "vector"
 
 template<typename Stream>
 class OverrideStream

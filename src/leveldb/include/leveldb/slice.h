@@ -15,13 +15,13 @@
 #ifndef STORAGE_LEVELDB_INCLUDE_SLICE_H_
 #define STORAGE_LEVELDB_INCLUDE_SLICE_H_
 
-#include <assert.h>
-#include <stddef.h>
-#include <string.h>
+#include "assert.h"
+#include "stddef.h"
+#include "string.h"
 
-#include <string>
+#include "string"
 
-#include "leveldb/export.h"
+#include "export.h"
 
 namespace leveldb {
 

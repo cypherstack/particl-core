@@ -14,10 +14,10 @@
 #ifndef BITCOIN_BASE58_H
 #define BITCOIN_BASE58_H
 
-#include <span.h>
+#include "span.h"
 
-#include <string>
-#include <vector>
+#include "string"
+#include "vector"
 
 /**
  * Encode a byte span as a base58-encoded string
