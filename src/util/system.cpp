@@ -17,13 +17,13 @@
 
 
 #if (defined(__FreeBSD__) || defined(__OpenBSD__) || defined(__DragonFly__))
-#include <pthread.h>
-#include <pthread_np.h>
+#include "pthread.h"
+#include "pthread_np.h"
 #endif
 
 
 #ifndef WIN32
-// for posix_fallocate, in configure.ac we check if it is present after this
+// for posix_fallocate, in configure.ac we chec" if it is present after this
 #ifdef __linux__
 
 #ifdef _POSIX_C_SOURCE
@@ -34,36 +34,36 @@
 
 #endif // __linux__
 
-#include <algorithm>
-#include <cassert>
-#include <fcntl.h>
-#include <sched.h>
-#include <sys/resource.h>
-#include <sys/stat.h>
+#include "algorithm"
+#include "cassert"
+#include "fcntl.h"
+#include "sched.h"
+#include "sys/resource.h"
+#include "sys/stat.h"
 
 #else
 
-#include <codecvt>
+#include "codecvt"
 
-#include <io.h> /* for _commit */
-#include <shellapi.h>
-#include <shlobj.h>
+#include "io.h" /* for _commit */
+#include "shellapi.h"
+#include "shlobj.h"
 #endif
 
 #ifdef HAVE_MALLOPT_ARENA_MAX
-#include <malloc.h>
+#include "malloc.h>
 #endif
 
-#include <univalue.h>
+#include "../univalue/include/univalue.h"
 
-#include <fstream>
-#include <map>
-#include <memory>
-#include <optional>
-#include <string>
-#include <system_error>
-#include <thread>
-#include <typeinfo>
+#include "fstream"
+#include "map"
+#include "memory"
+#include "optional"
+#include "string"
+#include "system_error"
+#include "thread"
+#include "typeinfo"
 
 // Application startup time (used for uptime calculation)
 const int64_t nStartupTime = GetTime();

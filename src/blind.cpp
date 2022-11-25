@@ -2,23 +2,23 @@
 // Distributed under the MIT/X11 software license, see the accompanying
 // file license.txt or http://www.opensource.org/licenses/mit-license.php.
 
-#include <blind.h>
+#include "blind.h"
 
-#include <assert.h>
-#include <secp256k1_rangeproof.h>
+#include "assert.h"
+#include "secp256k1/include/secp256k1_rangeproof.h"
 
-#include <support/allocators/secure.h>
-#include <random.h>
-#include <util/system.h>
-#include <serialize.h>
-#include <streams.h>
-#include <version.h>
+#include "support/allocators/secure.h"
+#include "random.h"
+#include "util/system.h"
+#include "serialize.h"
+#include "streams.h"
+#include "version.h"
 
-#include <common/bloom.h>
-#include <chain/ct_tainted.h>
-#include <chain/tx_blacklist.h>
-#include <chain/tx_whitelist.h>
-#include <set>
+#include "common/bloom.h"
+#include "chain/ct_tainted.h"
+#include "chain/tx_blacklist.h"
+#include "chain/tx_whitelist.h"
+#include "set"
 
 
 secp256k1_context *secp256k1_ctx_blind = nullptr;

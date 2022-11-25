@@ -3,18 +3,18 @@
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or https://opensource.org/licenses/mit-license.php.
 
-#include <univalue.h>
+#include "../include/univalue.h"
 
-#include <cerrno>
-#include <cstdint>
-#include <cstdlib>
-#include <cstring>
-#include <limits>
-#include <locale>
-#include <sstream>
-#include <stdexcept>
-#include <string>
-#include <vector>
+#include "cerrno"
+#include "cstdint"
+#include "cstdlib"
+#include "cstring"
+#include "limits"
+#include "locale"
+#include "sstream"
+#include "stdexcept"
+#include "string"
+#include "vector"
 
 namespace
 {

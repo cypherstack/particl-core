@@ -4,16 +4,16 @@
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
 #if defined(HAVE_CONFIG_H)
-#include <config/bitcoin-config.h>
+#include "config/bitcoin-config.h"
 #endif
 
-#include <randomenv.h>
+#include "randomenv.h"
 
-#include <clientversion.h>
-#include <compat/cpuid.h>
-#include <crypto/sha512.h>
-#include <support/cleanse.h>
-#include <util/time.h> // for GetTime()
+#include "clientversion.h"
+#include "compat/cpuid.h"
+#include "crypto/sha512.h"
+#include "support/cleanse.h"
+#include "util/time.h" // for GetTime()
 #ifdef WIN32
 #include <compat/compat.h>
 #endif

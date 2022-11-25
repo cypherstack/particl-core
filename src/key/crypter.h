@@ -5,8 +5,8 @@
 #ifndef PARTICL_KEY_CRYPTER_H
 #define PARTICL_KEY_CRYPTER_H
 
-#include <support/allocators/secure.h>
-#include <vector>
+#include "../support/allocators/secure.h"
+#include "vector"
 
 const unsigned int NARR_CRYPTO_KEY_SIZE = 32;
 const unsigned int NARR_CRYPTO_SALT_SIZE = 8;

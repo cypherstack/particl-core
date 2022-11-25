@@ -2,26 +2,26 @@
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#include <support/lockedpool.h>
-#include <support/cleanse.h>
+#include "lockedpool.h"
+#include "cleanse.h"
 
 #if defined(HAVE_CONFIG_H)
-#include <config/bitcoin-config.h>
+#include "../config/bitcoin-config.h"
 #endif
 
 #ifdef WIN32
-#include <windows.h>
+#include "windows.h"
 #else
-#include <sys/mman.h> // for mmap
-#include <sys/resource.h> // for getrlimit
-#include <limits.h> // for PAGESIZE
-#include <unistd.h> // for sysconf
+#include "sys/mman.h" // for mmap
+#include "sys/resource.h" // for getrlimit
+#include "limits.h"// for PAGESIZE
+#include "unistd.h" // for sysconf
 #endif
 
-#include <algorithm>
+#include "algorithm"
 #ifdef ARENA_DEBUG
-#include <iomanip>
-#include <iostream>
+#include "iomanip"
+#include "iostream"
 #endif
 
 LockedPoolManager* LockedPoolManager::_instance = nullptr;

@@ -5,10 +5,10 @@
 #ifndef BITCOIN_COMMON_BLOOM_H
 #define BITCOIN_COMMON_BLOOM_H
 
-#include <serialize.h>
-#include <span.h>
+#include "../serialize.h"
+#include "../span.h"
 
-#include <vector>
+#include "vector"
 
 class COutPoint;
 class CTransaction;

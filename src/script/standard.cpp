@@ -6,8 +6,8 @@
 #include "standard.h"
 
 #include "../crypto/sha256.h"
-#include "hash.h"
-#include "pubkey.h"
+#include "../hash.h"
+#include "../pubkey.h"
 #include "interpreter.h"
 #include "script.h"
 #include "../util/strencodings.h"

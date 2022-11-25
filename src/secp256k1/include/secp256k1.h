@@ -5,7 +5,7 @@
 extern "C" {
 #endif
 
-#include <stddef.h>
+#include "stddef.h"
 
 /* Unless explicitly stated all pointer arguments must not be NULL.
  *
