@@ -3,7 +3,7 @@
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
 #if defined(HAVE_CONFIG_H)
-#include <config/bitcoin-config.h>
+#include "../config/bitcoin-config.h"
 #endif
 
 #include <string>
@@ -11,14 +11,14 @@
 #include <utility>
 
 #if (defined(__FreeBSD__) || defined(__OpenBSD__) || defined(__DragonFly__))
-#include <pthread.h>
-#include <pthread_np.h>
+#include "pthread.h"
+#include "pthread_np.h"
 #endif
 
-#include <util/threadnames.h>
+#include "threadnames.h"
 
 #ifdef HAVE_SYS_PRCTL_H
-#include <sys/prctl.h>
+#include "sys/prctl.h"
 #endif
 
 //! Set the thread's name at the process level. Does not affect the
